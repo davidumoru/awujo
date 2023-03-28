@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/awujo-tournament-page/static/css/main.540eed2a.css",
+    "main.js": "/awujo-tournament-page/static/js/main.d22a0e43.js",
+    "static/media/cod.jpg": "/awujo-tournament-page/static/media/cod.46942c46f11b439c4683.jpg",
+    "index.html": "/awujo-tournament-page/index.html",
+    "main.540eed2a.css.map": "/awujo-tournament-page/static/css/main.540eed2a.css.map",
+    "main.d22a0e43.js.map": "/awujo-tournament-page/static/js/main.d22a0e43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.540eed2a.css",
+    "static/js/main.d22a0e43.js"
+  ]
+}
