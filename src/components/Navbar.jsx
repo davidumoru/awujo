@@ -12,9 +12,9 @@ const Navbar = () => {
       <div className="flex items-center">
         <h1 className="text-3xl font-bold text-pink-500 mr-6">awujo.</h1>
         <ul className="flex items-center ml-4">
-          <li className="p-4 text-white">Home</li>
-          <li className="p-4 text-white">Games</li>
-          <li className="p-4 text-white">Leadership Board</li>
+          <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">Home</li>
+          <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500" >Games</li>
+          <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">Leadership Board</li>
         </ul>
         <li className="ml-4 p-2">
           <input
@@ -25,11 +25,11 @@ const Navbar = () => {
         </li>
       </div>
       <ul className="flex items-center ml-auto">
-        <li className="ml-4 p-4 hidden lg:block text-white">My Wallet</li>
-        <li className="ml-4 p-4 text-white">Notifications</li>
+        <li className="ml-4 p-4 hidden lg:block text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">My Wallet</li>
+        <li className="ml-4 p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">Notifications</li>
         <li className="relative ml-4">
           <button
-            className="flex items-center p-4 text-white"
+            className="flex items-center p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500"
             onClick={toggleDropdown}
           >
             Account
