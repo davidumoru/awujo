@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 mx-auto px-4 lg:px-8 text-black">
+    <div className="flex flex-col sm:flex-row justify-between items-center h-24 mx-auto px-4 sm:px-8 text-black">
       <div className="flex items-center">
         <h1 className="text-3xl font-bold text-pink-500 mr-6">awujo.</h1>
         <ul className="flex items-center ml-4">
@@ -25,7 +25,7 @@ const Navbar = () => {
         </li>
       </div>
       <ul className="flex items-center ml-auto">
-        <li className="ml-4 p-4 hidden lg:block text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">My Wallet</li>
+        <li className="ml-4 p-4 hidden sm:block text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">My Wallet</li>
         <li className="ml-4 p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">Notifications</li>
         <li className="relative ml-4">
           <button
