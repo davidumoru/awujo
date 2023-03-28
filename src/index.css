@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-  background-color: #000300;
+  background: linear-gradient(to bottom, #1e1f26, #000000);
+  background-color: #ff0080;
+  background-blend-mode: multiply;
 }
 
 .body-wrapper {
