@@ -48,22 +48,22 @@ const Cards = () => {
         <div>
           <Card className="w-96 bg-gray-900 mb-20 h-96">
             <CardHeader floated={false} className="h-48">
-              <img src={cardImage} alt="profile" className="w-full h-full overflow-hidden"/>
+              <img src={cardImage} alt="profile" className="w-full h-full object-cover"/>
             </CardHeader>
             <CardBody className="text-center">
-              <Typography variant="p" color="pink" className="m-2">
+              <Typography variant="h6" color="pink" className="m-2">
                 Meet the Host:
               </Typography>
-              <Typography variant="h3" color="white" className="m-2">
-                Pewdiepie
+              <Typography variant="h3" color="white" className="m-2 font-bold">
+                PewDiePie
               </Typography>
-              <Typography variant="p" color="white" className="m-2">
-                Professional Gamer
+              <Typography variant="subtitle1" color="white" className="m-2">
+                Professional Gamer and YouTuber
               </Typography>
             </CardBody>
-            <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 my-2 lg:my-0 lg:mx-2 rounded-md">
-                View Profile
-              </button>
+            <button className="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 my-4 mx-auto rounded-md inline-block">
+              View Profile
+            </button>
           </Card>
         </div>
       </div>
