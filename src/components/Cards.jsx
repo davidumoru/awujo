@@ -10,46 +10,62 @@ import cardImage from "../images/55.jpg";
 const Cards = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-between mx-20">
-        <div class="flex flex-col">
-          <div class="px-6 py-4 my-5 border-2">
-            <div class="text-white font-bold text-xl mb-2">About</div>
-            <p class="text-white text-base">Welcome to the annual Call of Duty tournament!</p>
+      <div className="flex flex-wrap justify-between px-10">
+        <div>
+          <div className="flex flex-wrap justify-between">
+            <div className="flex flex-col">
+              <div className="px-6 py-4 mb-20-5 mr-10 bg-gray-900 border-blue-gray-900 rounded-lg w-96">
+                <div className="text-white font-bold text-xl mb-2">About:</div>
+                <p className="text-white text-base">Welcome to the annual Call of Duty tournament! Welcome to the annual Call of Duty tournament! Welcome to the annual Call of Duty tournament!</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="px-6 py-4 mb-20 ml-10 bg-gray-900 border-blue-gray-900 rounded-lg w-96">
+                <div className="text-white font-bold text-xl mb-2">Rules:</div>
+                <p className="text-white text-base">To ensure fair and fun gameplay for all participants. To ensure fair and fun gameplay for all participants. To ensure fair and fun gameplay for all participants.</p>
+              </div>
+            </div>
           </div>
 
-          <div class="px-6 py-4 my-5 border-2">
-            <div class="text-white font-bold text-xl mb-2">Rules</div>
-            <p class="text-white text-base">To ensure fair and fun gameplay for all participants.</p>
-          </div>
+          <div className="flex flex-wrap justify-between">
+            <div className="flex flex-col">
+              <div className="px-6 py-4 my-5 mr-10 bg-gray-900 border-blue-gray-900 rounded-lg w-96 h-32">
+                <div className="text-white font-bold text-xl mb-2">Participants:</div>
+                <p className="text-white text-base"></p>
+              </div>
+            </div>
 
-          <div class="px-6 py-4 my-5 border-2">
-            <div class="text-white font-bold text-xl mb-2">Participants</div>
-            <p class="text-white text-base">Some text for the third card.</p>
-          </div>
-
-          <div class="px-6 py-4 my-5 border-2">
-            <div class="text-white font-bold text-xl mb-2">Prize</div>
-            <p class="text-white text-base">Some text for the third card.</p>
+            <div className="flex flex-col">
+              <div className="px-6 py-4 my-5 ml-10 bg-gray-900 border-blue-gray-900 rounded-lg w-96 h-32">
+                <div className="text-white font-bold text-xl mb-2">Price</div>
+                <p className="text-white font-bold text-5xl">0.000 USDT</p>
+              </div>
+            </div>
           </div>
         </div>
 
-        <Card className="w-96 bg-gray-900 mb-10">
-          <CardHeader floated={false} className="h-48">
-            <img src={cardImage} alt="profile" className="w-full h-full overflow-hidden"/>
-          </CardHeader>
-          <CardBody className="text-center">
-            <Typography variant="h4" color="white" className="mb-2">
-              James Mayowa
-            </Typography>
-            <Typography color="pink" className="font-medium" textGradient>
-              CEO / Co-Founder
-            </Typography>
-          </CardBody>
-          <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 my-2 lg:my-0 lg:mx-2 rounded-md">
-              View Profile
-            </button>
-        </Card>
-
+        <div>
+          <Card className="w-96 bg-gray-900 mb-20 h-96">
+            <CardHeader floated={false} className="h-48">
+              <img src={cardImage} alt="profile" className="w-full h-full overflow-hidden"/>
+            </CardHeader>
+            <CardBody className="text-center">
+              <Typography variant="p" color="pink" className="m-2">
+                Meet the Host:
+              </Typography>
+              <Typography variant="h3" color="white" className="m-2">
+                Pewdiepie
+              </Typography>
+              <Typography variant="p" color="white" className="m-2">
+                Professional Gamer
+              </Typography>
+            </CardBody>
+            <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 my-2 lg:my-0 lg:mx-2 rounded-md">
+                View Profile
+              </button>
+          </Card>
+        </div>
       </div>
     </>
   );
