@@ -1,58 +1,57 @@
 import React from "react";
 import Cards from "./Cards";
-import myImage from "../images/cod.jpg";
+import bannerImage from "../images/cod.jpg";
 import gameImage from "../images/89.jpg";
 import hostImage from "../images/55.jpg";
 
 const Body = () => {
   return (
     <>
-      <div className="flex items-start">
+      <div className="flex flex-col lg:flex-row items-start">
         <img
-          src={myImage}
+          src={bannerImage}
           alt="Tournament Banner"
-          width="45%"
-          height="auto"
-          className="rounded-xl p-10 pr-5"
+          className="rounded-3xl p-10 pr-5 lg:w-1/2"
         />
-        <div className="flex flex-col justify-center">
-          <h1 className="inline-block text-4xl font-bold text-white pt-10 pl-5">
+        <div className="flex flex-col justify-center lg:w-1/2 lg:pl-10">
+          <h1 className="inline-block text-4xl font-bold text-white pt-10 lg:py-10">
             Call of Duty Tournament
           </h1>
-          <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 my-10 mx-5 w-20px rounded-md">
-            View Rules & Description
-          </button>
-
-          <div className="flex mx-5">
+          <div className="flex flex-col lg:flex-row mt-5">
+            <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 my-2 lg:my-0 lg:mx-2 rounded-md">
+              View Rules &amp; Description
+            </button>
+          </div>
+          <div className="flex mt-5 py-10">
             <div className="rounded-full overflow-hidden">
               <img
                 src={gameImage}
                 alt="User"
-                width="60px"
-                height="60px"
+                width="50rem"
+                height="50rem"
                 className="object-cover"
               />
             </div>
-            <div>
-              <p className="text-white text-lg pl-2">Game:</p>
-              <p className="text-white text-lg pl-2">OVERLEAGUE</p>
+            <div className="ml-3">
+              <p className="text-white text-lg">Game:</p>
+              <p className="text-white text-lg">OVERLEAGUE</p>
             </div>
 
-            <div className="rounded-full overflow-hidden">
+            <div className="rounded-full overflow-hidden ml-5">
               <img
                 src={hostImage}
                 alt="User"
-                width="60px"
-                height="60px"
+                width="50rem"
+                height="50rem"
                 className="object-cover"
               />
             </div>
-            <div>
-              <p className="text-white text-lg pl-2">Hosted by:</p>
-              <p className="text-white text-lg pl-2">Pewdiepie</p>
+            <div className="ml-3">
+              <p className="text-white text-lg">Hosted by:</p>
+              <p className="text-white text-lg">Pewdiepie</p>
             </div>
 
-            <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 m-10 rounded-md">
+            <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 ml-5 rounded-md">
               Join Tournament
             </button>
           </div>
