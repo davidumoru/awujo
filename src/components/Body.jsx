@@ -55,6 +55,19 @@ const Body = () => {
               Join Tournament
             </button>
           </div>
+          <div>
+            <table className="text-white text-lg border-y-2">
+              <tr>
+                <td>Start Time:</td>
+                <td>End Time:</td>
+                <td>Share Now</td>
+              </tr>
+              <tr>
+                <td style={{padding: '10px'}}>March 29 2023, 1:46 PM GMT</td>
+                <td style={{padding: '10px'}}>March 30 2023, 2:40 PM GMT</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
       <Cards />
