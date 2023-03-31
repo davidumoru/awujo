@@ -17,31 +17,17 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+@media only screen and (max-width: 1024px) {
+  .card-box {
+    width: 100%;
+    margin: 1rem 1rem;
+  }
+}
+
 .footer-wrapper {
   background-color: #000300;
   margin-top: 5rem;
 }
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 250px;
-  height: 100%;
-  background-color: pink;
-  z-index: 9999;
-  transition: all 0.3s ease-in-out;
-}
-
-.sidebar-toggle:checked + .body-wrapper {
-  margin-left: 0;
-}
-
-.sidebar-toggle:checked + .body-wrapper .sidebar {
-  transform: translateX(-100%);
-}
-
-
 
 @media only screen and (max-width: 1024px) {
   .body-wrapper {
@@ -49,7 +35,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .navbar {
     display: none;
   }
@@ -62,7 +48,7 @@ body {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1025px) {
   .sidebar {
     display: none;
   }
