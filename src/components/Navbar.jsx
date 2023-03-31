@@ -21,7 +21,7 @@ const Navbar = () => {
               Games
             </li>
             <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
-              Leadership Board
+              Leaderboard
             </li>
           </ul>
           <li className="ml-4 p-2">
