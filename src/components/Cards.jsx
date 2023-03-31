@@ -10,11 +10,11 @@ import cardImage from "../images/55.jpg";
 const Cards = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-between px-10">
+      <div className="flex flex-wrap justify-between card-container">
         <div>
           <div className="flex flex-wrap justify-between">
             <div className="flex flex-col">
-              <div className="px-6 py-4 mb-20-5 mr-10 bg-gray-900 border-blue-gray-900 rounded-lg w-96 card-box">
+              <div className="bg-gray-900 border-blue-gray-900 rounded-lg w-96 card-box">
                 <div className="text-white font-bold text-xl mb-2">About:</div>
                 <p className="text-white text-base">
                   Welcome to the annual Call of Duty tournament! Welcome to the

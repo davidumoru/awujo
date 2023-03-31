@@ -11,10 +11,10 @@ const Body = () => {
         <img
           src={bannerImage}
           alt="Tournament Banner"
-          className="rounded-3xl p-10 pr-5 lg:w-1/2"
+          className="tournament-banner rounded-3xl"
         />
         <div className="flex flex-col justify-center lg:w-1/2 lg:pl-10">
-          <h1 className="inline-block text-4xl font-bold text-white pt-10 lg:py-10">
+          <h1 className="title inline-block font-bold text-white">
             Call of Duty Tournament
           </h1>
           <div className="flex flex-col lg:flex-row mt-5">
@@ -22,7 +22,7 @@ const Body = () => {
               View Rules &amp; Description
             </button>
           </div>
-          <div className="flex mt-5 py-10">
+          <div className="flex flex-wrap mt-5 py-10">
             <div className="rounded-full overflow-hidden">
               <img
                 src={gameImage}

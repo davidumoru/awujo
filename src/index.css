@@ -13,14 +13,46 @@ body {
   margin: 1rem 10%;
   border-top: 0.4rem solid rgb(236, 72, 153);
   border-radius: 1rem;
-  z-index: 1;
-  transition: all 0.3s ease-in-out;
 }
+
+.title {
+  padding: 2.5rem 1rem;
+  margin: ;
+  font-size: 3rem;
+}
+
+.card-container {
+  padding: 0rem 10%;
+}
+
+.tournament-banner{
+  padding: 2.5rem 1.25rem;
+  width: 50%;
+  height: auto;
+}
+
+.card-box {
+  padding: 2rem; 
+  margin: 5rem 2.5rem
+}
+
 
 @media only screen and (max-width: 1024px) {
   .card-box {
     width: 100%;
-    margin: 1rem 1rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .tournament-banner {
+  padding: 1rem, 1rem;
+  width: fit-content;
+  height: auto;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 2rem;
   }
 }
 
