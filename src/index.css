@@ -13,6 +13,8 @@ body {
   margin: 1rem 15rem;
   border-top: 0.4rem solid rgb(236, 72, 153);
   border-radius: 1rem;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-wrapper {
@@ -20,9 +22,29 @@ body {
   margin-top: 5rem;
 }
 
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: pink;
+  z-index: 9999;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-toggle:checked + .body-wrapper {
+  margin-left: 0;
+}
+
+.sidebar-toggle:checked + .body-wrapper .sidebar {
+  transform: translateX(-100%);
+}
+
+
 @media only screen and (max-width: 640px) {
   .body-wrapper {
-    margin: 1rem 0.5rem;
+    margin: 1rem 0rem;
   }
 }
 
@@ -47,5 +69,27 @@ body {
 @media only screen and (max-width: 1536px) {
   .body-wrapper {
     margin: 1rem 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .sidebar {
+    display: block;
+  }
+  .logo {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .sidebar {
+    display: none;
+  }
+  .logo {
+    display: none;
   }
 }
