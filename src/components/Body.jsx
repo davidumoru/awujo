@@ -7,13 +7,13 @@ import hostImage from "../images/55.jpg";
 const Body = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-start">
+      <div className="flex flex-col lg:flex-row items-start px-10">
         <img
           src={bannerImage}
           alt="Tournament Banner"
           className="tournament-banner rounded-3xl"
         />
-        <div className="flex flex-col justify-center lg:w-1/2 lg:pl-10">
+        <div className="flex flex-col justify-center lg:w-1/2 lg:pl-10 info-container">
           <h1 className="title inline-block font-bold text-white">
             Call of Duty Tournament
           </h1>
@@ -22,7 +22,7 @@ const Body = () => {
               View Rules &amp; Description
             </button>
           </div>
-          <div className="flex flex-wrap mt-5 py-10">
+          <div className="flex flex-wrap justify-between py-16">
             <div className="rounded-full overflow-hidden">
               <img
                 src={gameImage}
@@ -56,7 +56,7 @@ const Body = () => {
             </button>
           </div>
           <div>
-            <table className="text-center text-white text-lg border-y-2">
+            <table className="text-center text-white text-lg border-y-2 mt-8">
               <tr>
                 <td>Start Time:</td>
                 <td style={{paddingLeft:"10rem"}}>End Time:</td>
