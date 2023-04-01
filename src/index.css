@@ -21,8 +21,10 @@ body {
   font-size: 3rem;
 }
 
-.card-container {
-  padding: 0rem 10%;
+@media only screen and (max-width: 1024px) {
+  .card-container {
+    padding: 0rem 10%;
+  }
 }
 
 .tournament-banner{
@@ -30,6 +32,7 @@ body {
   width: 50%;
   height: auto;
 }
+
 
 .card-box {
   padding: 2rem; 

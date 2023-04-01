@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <h1 className="logo text-3xl font-bold text-pink-500 mr-6">awujo.</h1>
+      <h1 className="logo text-3xl font-bold text-pink-500">awujo.</h1>
       <div className="navbar flex flex-col sm:flex-row justify-between items-center h-24 mx-auto px-4 sm:px-8 text-black">
         <div className="flex items-center">
           <h1 className="text-3xl font-bold text-pink-500 mr-6">awujo.</h1>
