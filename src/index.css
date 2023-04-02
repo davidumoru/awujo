@@ -69,6 +69,17 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .game-info {
+    padding: 1%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .game-container {
+    padding: 10% 0;
+    justify-content: center;
+  }
 }
 
 .footer-wrapper {

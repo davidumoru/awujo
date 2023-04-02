@@ -22,35 +22,39 @@ const Body = () => {
               View Rules &amp; Description
             </button>
           </div>
-          <div className="flex flex-wrap justify-between py-16">
-            <div className="rounded-full overflow-hidden">
-              <img
-                src={gameImage}
-                alt="User"
-                width="50rem"
-                height="50rem"
-                className="object-cover"
-              />
-            </div>
-            <div className="ml-3">
-              <p className="text-white text-lg">Game:</p>
-              <p className="text-white text-lg">OVERLEAGUE</p>
-            </div>
-
-            <div className="rounded-full overflow-hidden ml-5">
-              <img
-                src={hostImage}
-                alt="User"
-                width="50rem"
-                height="50rem"
-                className="object-cover"
-              />
-            </div>
-            <div className="ml-3">
-              <p className="text-white text-lg">Hosted by:</p>
-              <p className="text-white text-lg">Pewdiepie</p>
+          <div className="flex flex-wrap justify-between py-14 game-info">
+            <div className="flex  justify-between game-container">
+              <div className="rounded-full overflow-hidden">
+                <img
+                  src={gameImage}
+                  alt="User"
+                  width="50rem"
+                  height="50rem"
+                  className="object-cover"
+                />
+              </div>
+              <div className="ml-3">
+                <p className="text-white text-lg">Game:</p>
+                <p className="text-white text-lg">OVERLEAGUE</p>
+              </div>
             </div>
 
+            <div className="flex  justify-between game-container">
+              <div className="rounded-full overflow-hidden ml-5">
+                <img
+                  src={hostImage}
+                  alt="User"
+                  width="50rem"
+                  height="50rem"
+                  className="object-cover"
+                />
+              </div>
+              <div className="ml-3">
+                <p className="text-white text-lg">Hosted by:</p>
+                <p className="text-white text-lg">Pewdiepie</p>
+              </div>
+            </div>
+            
             <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 ml-5 rounded-md">
               Join Tournament
             </button>
