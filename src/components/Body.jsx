@@ -60,16 +60,22 @@ const Body = () => {
             </button>
           </div>
           <div>
-            <table className="text-center text-white text-lg border-y-2 mt-8">
+          <table className="text-center text-white text-lg border-y-2 mt-8">
+            <thead>
               <tr>
-                <td>Start Time:</td>
-                <td style={{paddingLeft:"10rem"}}>End Time:</td>
+                <th className="pr-2">Start Time</th>
+                <th className="border-l-2 border-white pl-2">End Time</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
-                <td>March 29 2023, 1:46 PM GMT</td>
-                <td style={{paddingLeft:"10rem"}}>March 30 2023, 2:40 PM GMT</td>
+                <td className="pr-2">March 29 2023, 1:46 PM GMT</td>
+                <td className="border-l-2 border-white pl-2">March 30 2023, 2:40 PM GMT</td>
               </tr>
-            </table>
+            </tbody>
+          </table>
+
+
           </div>
         </div>
       </div>
