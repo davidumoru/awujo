@@ -60,9 +60,9 @@ body {
   }
 
   .card-box {
-    width: 100%;
+    width:inherit;
     padding: 1rem;
-    margin: 1rem;
+    margin: 1rem 0;
   }
 
   .tournament-banner {
