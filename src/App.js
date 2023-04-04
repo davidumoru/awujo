@@ -2,6 +2,7 @@ import React  from "react";
 import Body from "./components/Body";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import BottomNav from "./components/BottomNav";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="body-wrapper">
         <Body />
       </div>
+      <BottomNav />
       <div className="footer-wrapper">
         <Footer />
       </div>

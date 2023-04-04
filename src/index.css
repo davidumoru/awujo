@@ -21,9 +21,6 @@ body {
 }
 
 
-  
-
-
 .tournament-banner{
   padding: 2.5rem 1.25rem;
   width: 50%;
@@ -36,6 +33,24 @@ body {
   margin: 5rem 2.5rem;
   border-radius: 1rem;
   width: 24rem;
+}
+
+.bottom-nav {
+    display: block;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to bottom, #ff0080, #ff38bd);
+    background-color: pink;
+    background-blend-mode: multiply;
+}
+
+
+.nav-icon {
+  filter: grayscale(100%) invert(100%) brightness(200%);
 }
 
 
@@ -112,5 +127,15 @@ body {
   }
   .logo {
     display: none;
+  }
+  .bottom-nav {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    background-color: #ad1c8c;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   }
 }
