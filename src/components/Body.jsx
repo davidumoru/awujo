@@ -7,7 +7,7 @@ import hostImage from "../images/55.jpg";
 const Body = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-start px-10">
+      <div className="flex flex-col lg:flex-row items-start px-10 body-container">
         <img
           src={bannerImage}
           alt="Tournament Banner"
