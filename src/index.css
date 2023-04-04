@@ -62,7 +62,7 @@ body {
     padding: 0 0 2rem;
   }
   .info-container {
-    justify-content: center;
+    margin: 0 auto;
     padding: 0 5%;
   }
 
