@@ -41,15 +41,14 @@ body {
 
 .bottom-nav {
     display: block;
+    padding: 0.5rem 0;
     position: fixed;
     right: 0;
     left: 0;
     bottom: 0;
     z-index: 10;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(to bottom, #ff0080, #ff38bd);
-    background-color: pink;
-    background-blend-mode: multiply;
+    background-color: #121212;
 }
 
 
@@ -138,12 +137,5 @@ body {
   }
   .bottom-nav {
     display: none;
-    position: fixed;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 10;
-    background-color: #ad1c8c;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   }
 }
