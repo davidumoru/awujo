@@ -24,13 +24,13 @@ const Body = () => {
           </div>
           <div className="flex flex-wrap justify-between py-14 game-info">
             <div className="flex  justify-between game-container">
-              <div className="rounded-full overflow-hidden">
+              <div>
                 <img
                   src={gameImage}
                   alt="User"
                   width="50rem"
                   height="50rem"
-                  className="object-cover"
+                  className="object-cover rounded-full overflow-hidden"
                 />
               </div>
               <div className="ml-3">
@@ -40,13 +40,13 @@ const Body = () => {
             </div>
 
             <div className="flex  justify-between game-container">
-              <div className="rounded-full overflow-hidden ml-5">
+              <div>
                 <img
                   src={hostImage}
                   alt="User"
                   width="50rem"
                   height="50rem"
-                  className="object-cover"
+                  className="object-cover rounded-full overflow-hidden ml-5"
                 />
               </div>
               <div className="ml-3">
