@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/awujo-tournament-page/static/css/main.c1f8d180.css",
-    "main.js": "/awujo-tournament-page/static/js/main.46906fad.js",
+    "main.css": "/awujo-tournament-page/static/css/main.fde7b7f6.css",
+    "main.js": "/awujo-tournament-page/static/js/main.4e3b4cab.js",
     "static/media/cod.jpg": "/awujo-tournament-page/static/media/cod.46942c46f11b439c4683.jpg",
     "static/media/89.jpg": "/awujo-tournament-page/static/media/89.b38656c653e0bbb1ef0c.jpg",
     "static/media/games.png": "/awujo-tournament-page/static/media/games.c64b312dfeb9531b7952.png",
     "static/media/user.png": "/awujo-tournament-page/static/media/user.33e7df0963941edbeb70.png",
     "index.html": "/awujo-tournament-page/index.html",
-    "main.c1f8d180.css.map": "/awujo-tournament-page/static/css/main.c1f8d180.css.map",
-    "main.46906fad.js.map": "/awujo-tournament-page/static/js/main.46906fad.js.map"
+    "main.fde7b7f6.css.map": "/awujo-tournament-page/static/css/main.fde7b7f6.css.map",
+    "main.4e3b4cab.js.map": "/awujo-tournament-page/static/js/main.4e3b4cab.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1f8d180.css",
-    "static/js/main.46906fad.js"
+    "static/css/main.fde7b7f6.css",
+    "static/js/main.4e3b4cab.js"
   ]
 }
