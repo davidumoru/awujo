@@ -17,8 +17,8 @@ const Body = () => {
           <h1 className="title inline-block font-bold text-white">
             Call of Duty Tournament
           </h1>
-          <div className="flex flex-col lg:flex-row mt-5 mx-auto w-52">
-            <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 my-2 lg:my-0 lg:mx-2 rounded-md">
+          <div className="flex flex-col lg:flex-row mt-5 mx-auto w-fit">
+            <button className="bg-pink-500 hover:bg-pink-700 text-white font px-2 py-2 my-2 lg:my-0 lg:mx-2 rounded-md">
               View Rules &amp; Description
             </button>
           </div>
