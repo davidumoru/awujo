@@ -7,13 +7,13 @@ import hostImage from "../images/55.jpg";
 const Body = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-start px-10 body-container">
+      <div className="flex px-10 body-container">
         <img
           src={bannerImage}
           alt="Tournament Banner"
           className="tournament-banner rounded-3xl"
         />
-        <div className="flex flex-col justify-center lg:w-1/2 lg:pl-10 info-container">
+        <div className="flex info-container">
           <h1 className="title inline-block font-bold text-white">
             Call of Duty Tournament
           </h1>
@@ -74,8 +74,6 @@ const Body = () => {
               </tr>
             </tbody>
           </table>
-
-
           </div>
         </div>
       </div>

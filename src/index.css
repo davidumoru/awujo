@@ -56,14 +56,32 @@ body {
   filter: grayscale(100%) invert(100%) brightness(200%);
 }
 
+.body-container {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 
-@media only screen and (max-width: 1024px) {
+.info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-left: 2.5rem;
+
+}
+
+@media only screen and (max-width: 1147px) {
   .body-container {
     padding: 0 0 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
+
   .info-container {
     margin: 0 auto;
-    padding: 0 5%;
+    padding: 0;
   }
 
   .card-box {
@@ -137,5 +155,11 @@ body {
   }
   .bottom-nav {
     display: none;
+  }
+}
+
+@media (max-width: 1025px) {
+  .body-container {
+
   }
 }
