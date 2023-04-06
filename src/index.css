@@ -71,7 +71,7 @@ body {
 
 }
 
-@media only screen and (max-width: 1147px) {
+@media only screen and (max-width: 1159px) {
   .body-container {
     padding: 0 0 2rem;
     flex-direction: column;
