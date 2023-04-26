@@ -54,26 +54,28 @@ const Body = () => {
                 <p className="text-white text-lg">Pewdiepie</p>
               </div>
             </div>
-            
+
             <button className="bg-pink-500 hover:bg-pink-700 text-white font py-2 px-2 ml-5 rounded-md">
               Join Tournament
             </button>
           </div>
           <div>
-          <table className="text-center text-white text-lg border-y-2 mt-8">
-            <thead>
-              <tr>
-                <th className="pr-2">Start Time</th>
-                <th className="border-l-2 border-white pl-2">End Time</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="pr-2">March 29 2023, 1:46 PM GMT</td>
-                <td className="border-l-2 border-white pl-2">March 30 2023, 2:40 PM GMT</td>
-              </tr>
-            </tbody>
-          </table>
+            <table className="text-center text-white text-lg border-y-2 mt-8">
+              <thead>
+                <tr>
+                  <th className="pr-2">Start Time</th>
+                  <th className="border-l-2 border-white pl-2">End Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="pr-2">March 29 2023, 1:46 PM GMT</td>
+                  <td className="border-l-2 border-white pl-2">
+                    March 30 2023, 2:40 PM GMT
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

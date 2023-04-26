@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
@@ -15,10 +16,10 @@ const Navbar = () => {
           <h1 className="text-3xl font-bold text-pink-500 mr-6">awujo.</h1>
           <ul className="flex items-center ml-4">
             <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
-              Home
+              <NavLink to="/">Home</NavLink>
             </li>
             <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
-              Games
+              <NavLink to="/Games">Games</NavLink>
             </li>
             <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
               Leaderboard
