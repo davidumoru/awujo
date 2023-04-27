@@ -7,7 +7,6 @@ const Games = () => {
   return (
     <>
       <GameTabs />
-      <div>Games</div>
       <GameCards />
     </>
   );
