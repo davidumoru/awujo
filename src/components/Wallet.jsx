@@ -21,7 +21,7 @@ export default function Wallet() {
  
   return (
     <React.Fragment>
-      <Button onClick={handleOpen}>Connect Wallet</Button>
+      <Button className="bg-pink-600" onClick={handleOpen}>Connect Wallet</Button>
       <Dialog size="xs" open={open} handler={handleOpen}>
         <DialogHeader className="justify-between">
           <Typography variant="h5" color="blue-gray">
