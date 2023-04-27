@@ -13,6 +13,7 @@ function App() {
       <Navbar />
 
       <Routes>
+        <Route path="/awujo-tournament-page" element={<div className="body-wrapper"><Home /></div>} />
         <Route path="/" element={<div className="body-wrapper"><Home /></div>} />
         <Route path="/Games" element={<Games />} />
       </Routes>
