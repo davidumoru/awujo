@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Wallet from "./Wallet";
 
 const Navbar = () => {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
@@ -34,8 +35,8 @@ const Navbar = () => {
           </li>
         </div>
         <ul className="flex items-center ml-auto">
-          <li className="ml-4 p-4 hidden sm:block text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
-            My Wallet
+          <li>
+            <Wallet />
           </li>
           <li className="ml-4 p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
             Notifications

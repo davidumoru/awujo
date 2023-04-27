@@ -6,7 +6,7 @@ import {
   TabPanel,
 } from "@material-tailwind/react";
 
-export default function Example() {
+export default function GameTabs() {
   const data = [
     {
       label: "Name",
@@ -34,7 +34,7 @@ export default function Example() {
   ];
 
   return (
-    <div className="mx-[20rem] mt-[5rem]">
+    <div className="mx-[15%] mt-[5%]">
       <Tabs id="custom-animation" value="html">
         <TabsHeader>
           {data.map(({ label, value }) => (
