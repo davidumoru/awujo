@@ -5,6 +5,7 @@ import Games from "./components/Games";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BottomNav from "./components/BottomNav";
+import GameRoom from "./components/GameRoom";
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/awujo-tournament-page" element={<div className="body-wrapper"><Home /></div>} />
         <Route path="/" element={<div className="body-wrapper"><Home /></div>} />
         <Route path="/Games" element={<Games />} />
+        <Route path="/GameRoom" element={<GameRoom/>} />
       </Routes>
 
 
