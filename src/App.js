@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Games from "./components/Games";
@@ -10,21 +10,27 @@ import GameRoom from "./components/GameRoom";
 function App() {
   return (
     <>
-    <Router>
-      <Navbar />
+      <Router>
+        <Navbar />
 
-      <Routes>
-        <Route path="/awujo-tournament-page" element={<div className="body-wrapper"><Home /></div>} />
-        <Route path="/Games" element={<Games />} />
-        <Route path="/GameRoom" element={<GameRoom/>} />
-      </Routes>
+        <Routes>
+          <Route
+            path="/awujo-tournament-page"
+            element={
+              <div className="body-wrapper">
+                <Home />
+              </div>
+            }
+          />
+          <Route path="/Games" element={<Games />} />
+          <Route path="/GameRoom/:id" element={<GameRoom />} />
+        </Routes>
 
-
-      <BottomNav />
-      <div className="footer-wrapper">
-        <Footer />
-      </div>
-    </Router>
+        <BottomNav />
+        <div className="footer-wrapper">
+          <Footer />
+        </div>
+      </Router>
     </>
   );
 }
