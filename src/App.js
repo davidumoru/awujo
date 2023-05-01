@@ -14,7 +14,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<div className="body-wrapper"><Home /></div>} />
+        <Route path="/awujo-tournament-page" element={<div className="body-wrapper"><Home /></div>} />
         <Route path="/Games" element={<Games />} />
         <Route path="/GameRoom" element={<GameRoom/>} />
       </Routes>
