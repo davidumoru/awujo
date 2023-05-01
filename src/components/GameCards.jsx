@@ -10,7 +10,7 @@ import {
 
 function GameCard({ game }) {
   return (
-    <Link to={`/GameRoom?id=${game.id}`}>
+    <a href={`./GameRoom?id=${game.id}`}>
       <Card className="bg-gray-900 w-96 mx-2 my-4">
         <CardHeader floated={false} className="h-80">
           <img
@@ -28,7 +28,7 @@ function GameCard({ game }) {
           </Typography>
         </CardBody>
       </Card>
-    </Link>
+    </a>
   );
 }
 
