@@ -11,12 +11,12 @@ const Navbar = () => {
 
   return (
     <>
-      <a href="/">
+      <a href="/awujo-tournament-page">
         <h1 className="logo text-3xl font-bold text-pink-500">awujo.</h1>
       </a>
       <div className="navbar flex flex-col sm:flex-row justify-between items-center h-24 mx-auto px-4 sm:px-8 text-black">
         <div className="flex items-center">
-          <a href="/">
+          <a href="/awujo-tournament-page">
             <h1 className="text-3xl font-bold text-pink-500 mr-6">awujo.</h1>
           </a>
           <ul className="flex items-center ml-4">

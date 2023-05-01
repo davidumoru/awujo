@@ -10,12 +10,12 @@ import GameRoom from "./components/GameRoom";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/awujo-tournament-page">
         <Navbar />
 
         <Routes>
           <Route
-            path="/awujo-tournament-page"
+            path="/"
             element={
               <div className="body-wrapper">
                 <Home />
