@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 import {
   Card,
   CardHeader,
@@ -9,7 +10,7 @@ import {
 
 function GameCard({ game }) {
   return (
-    <a href={`./GameRoom?id=${game.id}`}>
+    <Link to={`/GameRoom/${game.id}`}>
       <Card className="bg-gray-900 w-96 mx-2 my-4">
         <CardHeader floated={false} className="h-80">
           <img
@@ -27,7 +28,7 @@ function GameCard({ game }) {
           </Typography>
         </CardBody>
       </Card>
-    </a>
+    </Link>
   );
 }
 
