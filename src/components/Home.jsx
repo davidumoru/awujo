@@ -4,7 +4,7 @@ import bannerImage from "../images/cod.jpg";
 import gameImage from "../images/89.jpg";
 import hostImage from "../images/55.jpg";
 
-const Body = () => {
+const Home = () => {
   return (
     <>
       <div className="flex px-10 body-container">
@@ -84,4 +84,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default Home;
