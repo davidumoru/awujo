@@ -21,7 +21,7 @@ const Navbar = () => {
           </a>
           <ul className="flex items-center ml-4">
             <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
-              <NavLink to="/awujo-tournament-page">Home</NavLink>
+              <NavLink to="/Home">Home</NavLink>
             </li>
             <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
               <NavLink to="/Games">Games</NavLink>
