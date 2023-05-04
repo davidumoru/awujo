@@ -23,7 +23,7 @@ function App() {
             }
           />
           <Route path="/Games" element={<Games />} />
-          <Route path="/GameRoom/:id" element={<GameRoom />} />
+          <Route path="/GameRoom" element={<GameRoom />} />
         </Routes>
 
         <BottomNav />
