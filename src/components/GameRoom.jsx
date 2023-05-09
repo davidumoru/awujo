@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import GameRank from "./GameRank.jsx"
 import RatingBar from "./RatingBar.jsx"
 import axios from "axios";
 import {
@@ -57,6 +58,7 @@ function GameRoom() {
           </Typography>
         </CardBody>
       </Card>
+      <GameRank />
       <RatingBar />
     </div>
   );
