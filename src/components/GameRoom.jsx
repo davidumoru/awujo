@@ -58,8 +58,10 @@ function GameRoom() {
           </Typography>
         </CardBody>
       </Card>
-      <GameRank />
-      <RatingBar />
+      <div className="flex justify-between gap-5 mx-52 mt-14">
+        <GameRank />
+        <RatingBar />
+      </div>
     </div>
   );
 }

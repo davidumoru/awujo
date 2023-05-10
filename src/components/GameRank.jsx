@@ -1,5 +1,4 @@
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { PencilIcon, UserPlusIcon } from "@heroicons/react/24/solid";
 import {
   Card,
   CardHeader,
@@ -13,8 +12,6 @@ import {
   TabsHeader,
   Tab,
   Avatar,
-  IconButton,
-  Tooltip,
 } from "@material-tailwind/react";
  
 const TABS = [
@@ -23,16 +20,16 @@ const TABS = [
     value: "all",
   },
   {
-    label: "Monitored",
-    value: "monitored",
+    label: "Country",
+    value: "country",
   },
   {
-    label: "Unmonitored",
-    value: "unmonitored",
+    label: "Friends",
+    value: "friends",
   },
 ];
  
-const TABLE_HEAD = ["Member", "Function", "Status", "Employed", ""];
+const TABLE_HEAD = ["User", "info", "Status", "Date", ""];
  
 const TABLE_ROWS = [
   {
@@ -84,23 +81,20 @@ const TABLE_ROWS = [
  
 export default function Example() {
   return (
-    <Card className="h-full w-full">
-      <CardHeader floated={false} shadow={false} className="rounded-none">
+    <Card className="bg-gray-900 w-[100rem] mx-auto my-8">
+      <CardHeader floated={false} shadow={false} className="rounded-none bg-gray-900">
         <div className="mb-8 flex items-center justify-between gap-8">
           <div>
-            <Typography variant="h5" color="blue-gray">
-              Members list
+            <Typography variant="h5" color="white">
+              Game Leaderboard
             </Typography>
             <Typography color="gray" className="mt-1 font-normal">
-              See information about all members
+              See information about all users
             </Typography>
           </div>
           <div className="flex shrink-0 flex-col gap-2 sm:flex-row">
-            <Button variant="outlined" color="blue-gray" size="sm">
+            <Button variant="outlined" color="white" size="sm">
               view all
-            </Button>
-            <Button className="flex items-center gap-3" color="blue" size="sm">
-              <UserPlusIcon strokeWidth={2} className="h-4 w-4" /> Add member
             </Button>
           </div>
         </div>
@@ -124,10 +118,10 @@ export default function Example() {
           <thead>
             <tr>
               {TABLE_HEAD.map((head) => (
-                <th key={head} className="border-y border-blue-gray-100 bg-blue-gray-50/50 p-4">
+                <th key={head} className="border-y border-white-100 bg-gray-900 p-4">
                   <Typography
                     variant="small"
-                    color="blue-gray"
+                    color="white"
                     className="font-normal leading-none opacity-70"
                   >
                     {head}
@@ -139,7 +133,7 @@ export default function Example() {
           <tbody>
             {TABLE_ROWS.map(({ img, name, email, job, org, online, date }, index) => {
               const isLast = index === TABLE_ROWS.length - 1;
-              const classes = isLast ? "p-4" : "p-4 border-b border-blue-gray-50";
+              const classes = isLast ? "p-4" : "p-4 border-b border-white-50";
  
               return (
                 <tr key={name}>
@@ -147,12 +141,12 @@ export default function Example() {
                     <div className="flex items-center gap-3">
                       <Avatar src={img} alt={name} size="sm" />
                       <div className="flex flex-col">
-                        <Typography variant="small" color="blue-gray" className="font-normal">
+                        <Typography variant="small" color="white" className="font-normal">
                           {name}
                         </Typography>
                         <Typography
                           variant="small"
-                          color="blue-gray"
+                          color="white"
                           className="font-normal opacity-70"
                         >
                           {email}
@@ -162,12 +156,12 @@ export default function Example() {
                   </td>
                   <td className={classes}>
                     <div className="flex flex-col">
-                      <Typography variant="small" color="blue-gray" className="font-normal">
+                      <Typography variant="small" color="white" className="font-normal">
                         {job}
                       </Typography>
                       <Typography
                         variant="small"
-                        color="blue-gray"
+                        color="white"
                         className="font-normal opacity-70"
                       >
                         {org}
@@ -180,21 +174,14 @@ export default function Example() {
                         variant="ghost"
                         size="sm"
                         value={online ? "online" : "offline"}
-                        color={online ? "green" : "blue-gray"}
+                        color={online ? "green" : "white"}
                       />
                     </div>
                   </td>
                   <td className={classes}>
-                    <Typography variant="small" color="blue-gray" className="font-normal">
+                    <Typography variant="small" color="white" className="font-normal">
                       {date}
                     </Typography>
-                  </td>
-                  <td className={classes}>
-                    <Tooltip content="Edit User">
-                      <IconButton variant="text" color="blue-gray">
-                        <PencilIcon className="h-4 w-4" />
-                      </IconButton>
-                    </Tooltip>
                   </td>
                 </tr>
               );
@@ -202,15 +189,15 @@ export default function Example() {
           </tbody>
         </table>
       </CardBody>
-      <CardFooter className="flex items-center justify-between border-t border-blue-gray-50 p-4">
-        <Typography variant="small" color="blue-gray" className="font-normal">
+      <CardFooter className="flex items-center justify-between border-t border-white-50 p-4">
+        <Typography variant="small" color="white" className="font-normal">
           Page 1 of 10
         </Typography>
         <div className="flex gap-2">
-          <Button variant="outlined" color="blue-gray" size="sm">
+          <Button variant="outlined" color="white" size="sm">
             Previous
           </Button>
-          <Button variant="outlined" color="blue-gray" size="sm">
+          <Button variant="outlined" color="white" size="sm">
             Next
           </Button>
         </div>
