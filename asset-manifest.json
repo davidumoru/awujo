@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/awujo-tournament-page/static/css/main.2e94869a.css",
-    "main.js": "/awujo-tournament-page/static/js/main.964e47ba.js",
+    "main.css": "/awujo-tournament-page/static/css/main.471d19bd.css",
+    "main.js": "/awujo-tournament-page/static/js/main.dd9896ed.js",
     "static/media/cod.jpg": "/awujo-tournament-page/static/media/cod.46942c46f11b439c4683.jpg",
     "static/media/89.jpg": "/awujo-tournament-page/static/media/89.b38656c653e0bbb1ef0c.jpg",
     "static/media/games.png": "/awujo-tournament-page/static/media/games.c64b312dfeb9531b7952.png",
@@ -11,11 +11,11 @@
     "static/media/trust-wallet-token-twt-seeklogo.com.svg": "/awujo-tournament-page/static/media/trust-wallet-token-twt-seeklogo.com.98f776a7649876192a76e24e2a07ada9.svg",
     "static/media/Coinbase-icon-symbol-1.svg": "/awujo-tournament-page/static/media/Coinbase-icon-symbol-1.3b075142db763b24c3930abc1070fada.svg",
     "index.html": "/awujo-tournament-page/index.html",
-    "main.2e94869a.css.map": "/awujo-tournament-page/static/css/main.2e94869a.css.map",
-    "main.964e47ba.js.map": "/awujo-tournament-page/static/js/main.964e47ba.js.map"
+    "main.471d19bd.css.map": "/awujo-tournament-page/static/css/main.471d19bd.css.map",
+    "main.dd9896ed.js.map": "/awujo-tournament-page/static/js/main.dd9896ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e94869a.css",
-    "static/js/main.964e47ba.js"
+    "static/css/main.471d19bd.css",
+    "static/js/main.dd9896ed.js"
   ]
 }
