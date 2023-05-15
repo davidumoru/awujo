@@ -32,7 +32,7 @@ function GameRoom() {
 
   return (
     <div>
-      <Card className="bg-gray-900 w-[100rem] mx-auto my-8">
+      <Card className="bg-gray-900 max-w-[100rem] mx-auto my-8">
         <CardHeader floated={false} className="h-[30rem]">
           <img
             src={game.gameFlyer}
