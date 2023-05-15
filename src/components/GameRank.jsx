@@ -81,7 +81,7 @@ const TABLE_ROWS = [
  
 export default function Example() {
   return (
-    <Card className="bg-gray-900 w-[100rem] mx-auto my-8">
+    <Card className="bg-gray-900 max-w-[100rem] mx-auto my-8">
       <CardHeader floated={false} shadow={false} className="rounded-none bg-gray-900">
         <div className="mb-8 flex items-center justify-between gap-8">
           <div>
