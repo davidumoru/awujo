@@ -31,7 +31,7 @@ function GameRoom() {
   }
 
   return (
-    <div>
+    <div className="px-[10%]">
       <Card className="bg-gray-900 max-w-[100rem] mx-auto my-8">
         <CardHeader floated={false} className="h-[30rem]">
           <img
