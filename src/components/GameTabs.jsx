@@ -36,7 +36,7 @@ export default function GameTabs() {
   return (
     <div className="mx-[15%] mt-[5%]">
       <Tabs id="custom-animation" value="html">
-        <TabsHeader>
+        <TabsHeader className="game-tabs">
           {data.map(({ label, value }) => (
             <Tab key={value} value={value}>
               {label}

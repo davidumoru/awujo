@@ -163,3 +163,10 @@ body {
 
   }
 }
+
+@media (max-width: 767px) {
+  .game-tabs {
+    flex-wrap: wrap;
+  }
+}
+
