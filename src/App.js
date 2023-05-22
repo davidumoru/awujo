@@ -15,7 +15,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/Home"
+            path="/"
             element={
               <div className="body-wrapper">
                 <Home />

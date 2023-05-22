@@ -11,17 +11,17 @@ const Navbar = () => {
 
   return (
     <>
-      <NavLink to="/Home">
+      <NavLink to="/">
         <h1 className="logo text-3xl font-bold text-pink-500">awujo.</h1>
       </NavLink>
       <div className="navbar flex flex-col sm:flex-row justify-between items-center h-24 mx-auto px-4 sm:px-8 text-black">
         <div className="flex items-center">
-          <NavLink to="./Home">
+          <NavLink to="/">
             <h1 className="text-3xl font-bold text-pink-500 mr-6">awujo.</h1>
           </NavLink>
           <ul className="flex items-center ml-4">
             <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
-              <NavLink to="/Home">Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li className="p-4 text-white font-normal transition-colors hover:text-pink-500 focus:text-pink-500">
               <NavLink to="/Games">Games</NavLink>
