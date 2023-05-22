@@ -1,8 +1,8 @@
 {
-  "name": "awujo-tournament-page",
+  "name": "awujo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://davidumoru.github.io/awujo-tournament-page/",
+  "homepage": "https://davidumoru.github.io/awujo/",
   "dependencies": {
     "-": "^0.0.1",
     "@heroicons/react": "^2.0.17",
